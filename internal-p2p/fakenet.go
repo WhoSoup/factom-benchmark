@@ -17,7 +17,7 @@ func NewFakeNet() *FakeNet {
 }
 
 func (f *FakeNet) Send(parcel *p2p.Parcel) {
-	fmt.Println("Network send", parcel)
+	externalReceived++
 }
 
 func (f *FakeNet) Reader() <-chan *p2p.Parcel {
