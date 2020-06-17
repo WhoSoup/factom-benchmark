@@ -1,6 +1,6 @@
 # results
 
-code is really messy but after initial testing
+code is really messy but after initial testing there was no need to continue
 
 (test was performed concurrently with each other)
 
